@@ -1,0 +1,437 @@
+/* ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â«ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ */
+.gumball_text{
+    position:absolute;
+    top:256px;
+}
+
+.bottle_contain>li>div:first-child{
+    position:relative;
+}
+
+.bottle_contain>li>div:last-child{
+    position:relative;
+}
+.bottle_contain>li>div:first-child ul{
+    position:absolute;
+    top:55px;
+    left:16px;
+}
+
+.bottle_contain>li>div:first-child ul li{
+    margin-bottom:-8px;
+}
+
+.candy_right{
+    margin-left:25px;
+}
+
+.gumball_text li{
+    margin-bottom:40px;
+    width:91px;
+}
+
+.letter-space{
+    letter-spacing:-1px;
+}
+
+#reedie{
+    position:absolute;
+    left: 60px;
+    top:256px;
+}
+#gram{
+    position:absolute;
+    left:-5px;
+    top:268px;
+}
+
+#coco{
+    position:absolute;
+    left:183px;
+    top:431px;
+}
+
+#elly{
+    position:absolute;
+    left: 146px;
+    top: 335px;
+}
+
+#levelContain{
+    position:absolute;
+    left:198px;
+    top:100px;
+}
+
+#levelContain div:last-child{
+/*     position:absolute; */
+    margin-top:-10px;
+}
+
+#levelContain>ul>li{
+    float:left;
+    margin-right:35px;
+}
+
+#levelContain div:last-child ul{
+    margin-top:11px;
+}
+
+.level_text{
+    position:absolute;
+    /* background-color:#2196F3; */
+    width:160px;
+}
+
+.level_text li{
+    float:left;
+}
+
+.level_text li:first-child{
+    margin-left:10px;
+    width:95px;
+/*     background-color:cadetblue; */
+    color:white;
+}
+
+.level_text li:last-child{
+    width:40px;
+    text-align:right;
+}
+
+#gumball{
+    position:absolute;
+    left:793px;
+    top:83px;
+}
+
+/* ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â«ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â«ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ */
+#script_character{
+    position:absolute;
+    left:132px;
+    top:158px
+}
+
+/* ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂªÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â²ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â«ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ */
+.test_ui{
+    position:absolute;
+    
+}
+.box_size{
+    position:absolute;
+    width:180px;
+    z-index:1000;
+/*     height:238px; */
+    
+}
+
+.box_title{
+    position:absolute;
+    left:25px;
+    top:50px;
+    line-height:38px;
+    width:130px;
+}
+
+.left_top{
+    top:70px;
+    left:80px;
+}
+
+.left_center{
+    top:183px;
+    left:80px;
+}
+
+.right_center{
+    top:183px;
+    left:745px;
+}
+
+.right_top{
+    top:70px;
+    left:745px;
+}
+
+.left_bottom{
+    top:315px;
+    left:80px;
+}
+
+.right_bottom{
+    top:315px;
+    left:745px;
+}
+
+#dragicon p {
+    margin-top:20px;
+    padding:0;
+    font-size:7px;
+    color:aliceblue
+}
+
+#dragicon{
+    position:absolute;
+    width: 47px;
+    height:47px;
+    top:530px;
+    left:476px;
+    z-index:10000;
+    background-color:azure;
+    cursor: pointer;
+}
+
+#dragicon img{
+    margin-left:-10px;
+    margin-top:-10px;
+}
+
+#dragicon div{
+    position:absolute;
+    display:table;
+    width: 62px;
+    height:50px;
+    top:0px;
+    left:-8px;
+}
+
+#dragicon span{
+    position:relative;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    line-height:16px;
+    z-index:10;
+    width: 33px;
+    /*     background-color:aliceblue; */
+}
+
+#canvas{
+    left:-11px;
+    top:0px;
+    position:absolute;
+    z-index:-1;
+}
+
+#debug{
+    left:-11px;
+    top:0px;
+    position:absolute;
+    z-index:-1;
+}
+
+#gumBall_container{
+    position:absolute;
+    left: 338px;
+    top:18px;
+}
+
+#gumBall_container button{
+    width:80px;
+    height:77px;
+    z-index:1000;
+    position:absolute;
+    left:120px;
+    top:290px;
+    background-color:rgba(240, 248, 255, 0);
+    cursor:pointer;
+    border:none;
+    outline:none;
+}
+
+.gumball_body{
+    position:absolute;
+    left:-20px;
+    top:233px;
+}
+
+#gumBall_container img{
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+
+
+.gumBallMachine_title span{
+    font-size: 13pt;
+}
+
+.gumBallMachine_title{
+    position:absolute;
+    top:338px;
+    left:-26px;
+    z-index: 100;
+}
+.gumball_title{
+/*     background-color:brown; */
+    width:89px;
+    display:block;
+    float:left;
+    text-align:center;
+}
+
+.gumball_level{
+/*     background-color:brown; */
+    width:89px;
+    display:block;
+    margin-left:287px;
+    cursor:pointer;
+}
+
+
+/* target box setting */
+.show_ball{
+    position:absolute;
+    z-index:100;
+/*     cursor:pointer; */
+/*     background-color:aqua; */
+}
+
+.act1_table_contain{
+    position:absolute;
+    display:table;
+    width:65px;
+/*     height:20px; */
+/*     background-color:aliceblue; */
+/*     width:50px; */
+/*     top:20px; */
+
+}
+
+.act1_game_ball_img span{/*     background-color:antiquewhite; */position:relative;display:table-cell;vertical-align:middle;text-align:center;line-height: 16px;height:66px;z-index:10;}
+
+.box_inner{
+    position:relative;
+    background-color:#2f9eff5e;
+    top:-149px;
+    left:20px;
+}
+
+.act1_round{
+    display:block;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:-10;
+}
+
+/* .box_size .box_inner>div:nth-child(2) .act1_round{
+    left:76px;
+}
+
+.box_size .box_inner>div:nth-child(3) .act1_round{
+    top:72px;
+}
+
+.box_size .box_inner>div:nth-child(4) .act1_round{
+    left:76px;
+    top:72px;
+} */
+
+.box_size .box_inner>div:nth-child(2){
+    position:absolute;
+    left:76px;
+}
+
+.box_size .box_inner>div:nth-child(3){
+    top:72px;
+}
+
+.box_size .box_inner>div:nth-child(4){
+    left:76px;
+    top:72px;
+}
+
+.box_size .box_inner>div:nth-child(5){
+    top:145px;
+}
+
+.box_size .box_inner>div:nth-child(6){
+    left:76px;
+    top:145px;
+}
+
+
+.font_embed_ball{
+    /*     position:absolute;
+    width:65px;
+    line-height:67px; */
+    font-size:13pt;
+    }
+
+#elly_act1game{
+    position:absolute;
+    left:610px;
+    bottom:55px;
+}
+
+.transform_scaleX{
+    -ms-transform: scale(-1, 1); /* IE 9 */
+    -webkit-transform: scale(-1, 1); /* Safari */
+    transform: scale(-1, 1);
+}
+
+/* ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂªÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â²ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂªÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â«ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´  */
+#result_character{
+    position:absolute;
+    top:257px;
+}
+#result_note{
+    position:absolute;
+    left:137px;
+    top:6px;
+}
+
+#result_note ul{
+    position:absolute;
+    top:40px;
+}
+
+
+#result_note ul li{
+   margin-top:15px;
+   margin-left:13px;
+   width:400px;
+   height:21px;
+}
+
+#result_note ul li div:last-child{
+    display:table;
+    top:-6px;
+    margin-left:30px;
+    height:30px;
+    position:relative;
+}
+#result_note ul li img{
+    position:absolute;
+}
+
+#result_note ul li div:last-child span{
+    font-size:12pt;
+    display:table-cell;
+    line-height:10pt;
+    text-align:left;
+    vertical-align:middle;
+}
+
+.list_check{
+    position:absolute;
+    z-index:1;
+    background-image:url(../asset/img/act1/check.png);
+    background-repeat: no-repeat;
+    width:327px;
+    height:23px;
+    margin-top:-8px;
+}
+
+.act1_view4_replay_button{
+    position:absolute;
+    right:-12px;
+    top: 478px;
+    z-index:1000;
+}
+
+.littel-font{
+    font-size:11pt;
+}

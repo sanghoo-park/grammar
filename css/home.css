@@ -1,0 +1,106 @@
+.img_button{
+    position:absolute;
+}
+#item_ui{
+    top:-210px;
+    position: absolute;
+}
+
+#item_ui #item_ui_arrow{
+    position:absolute;
+    left:489px;
+    top:211px;
+}
+
+#item_ui button{
+    cursor:pointer;
+    background-color:rgba(255, 255, 255, 0);
+    width:65px;height:35px;position:absolute;left:465px;bottom:0px;
+    boder:none;
+    outline:none;
+}
+#nouns_button{
+    left:7px;
+    top:197px;
+}
+
+#verbs_button{
+    left:373px;
+    top:179px;
+}
+
+#full_Screen{
+    width:50px;
+    height:50px;
+        pointer-events: all;
+/*     background-color:#2097ff; */
+    position:absolute;
+    top:-550px;
+}
+#adjectives_button{
+    left:127px;
+    top:193px;
+}
+
+#adverbs_button{
+    left:258px;
+    top:192px;
+}
+
+#act2_button{
+    left:388px;
+    top:429px;
+}
+
+#act3_button{
+    left:4px;
+    top:359px;
+}
+
+#reedie_Home{
+    left:653px;
+    top:35px;
+}
+
+#part1_Home1{
+/*     background-color:#0068c478; */
+    width:222px;
+    height:150px;
+    position:absolute;
+    left:20px;
+    top:20px;
+    cursor:pointer;
+}
+
+#part1_Home2{
+/*     background-color:#0068c478; */
+    width:260px;
+    height:150px;
+    position:absolute;
+    left:310px;
+    top:20px;
+    cursor:pointer;
+}
+
+#part1_Home3{
+/*     background-color:#0068c478; */
+    width:360px;
+    height:150px;
+    position:absolute;
+    left:640px;
+    top:200px;
+    cursor:pointer;
+}
+
+
+#part1_Home4{
+/*     background-color:#0068c478; */
+    width:360px;
+    height:150px;
+    position:absolute;
+    left:640px;
+    top:400px;
+    cursor:pointer;
+}
+
+

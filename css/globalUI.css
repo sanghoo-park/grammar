@@ -1,0 +1,66 @@
+#globla_ui{
+    position:absolute;
+    z-index: 100000;
+    bottom:0px;
+    /* left:25px; */
+    width:100%;
+    pointer-events : none;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s; /* For Safari 3.1 to 6.0 */
+}
+
+#globla_ui #left_ui {
+    pointer-events:all;
+    margin-left:10px;
+}
+
+#globla_ui #left_ui div{
+    float:left;
+    margin-right:15px;
+}
+
+#globla_ui #left_ui div:nth-child(3){
+    margin-top:10px;
+}
+
+#globla_ui #left_ui div:nth-child(4){
+    margin-top:10px;
+}
+
+#globla_ui #right_ui{
+    position:relative;
+    float:right;
+    margin-right:10px;
+    margin-top:5px;
+    pointer-events: all;
+}
+
+#globla_ui #right_ui div{
+    float:left;
+}
+
+#globla_ui #right_ui div:last-child{
+    margin-top:10px;
+}
+
+#globla_ui #right_ui div:last-child span{
+    position:absolute;
+    color:white;
+    right:17px;
+    top:22px;
+    width:90px;
+    text-align:right;
+    font-size:13pt;
+    line-height:26px;
+}
+
+#globla_ui #right_ui div:last-child p{
+    position:absolute;
+    color:white;
+    right:17px;
+    top:20px;
+    width:90px;
+    text-align:right;
+    font-size:13pt;
+    line-height:26px;
+}

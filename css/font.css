@@ -1,0 +1,19 @@
+@font-face {
+    font-family: ArialRoundedMT;
+    src: url(../asset/fonts/ArialRoundedMTBold.eot); /* IE 호환성 보기 */
+    src: url(../asset/fonts/ArialRoundedMTBold.eot#iefix) format('embedded-opentype'), /* IE 6 ~ 8 */
+         url(../asset/fonts/ArialRoundedMTBold.woff2) format('woff2'), /* WOFF2 지원 브라우저 */
+         url(../asset/fonts/ArialRoundedMTBold.woff) format('woff'), /* 모던 브라우저 */
+         url(../asset/fonts/ArialRoundedMTBold.ttf) format('truetype'),
+         url(../asset/fonts/ArialRoundedMTBold.svg#NanumSquareR) format('svg'); /* 구 모바일 브라우저 */
+}
+
+@font-face {
+    font-family: BroadwayEngraved;
+    src: url(../asset/fonts/BroadwayEngraved-BT.eot); /* IE 호환성 보기 */
+    src: url(../asset/fonts/BroadwayEngraved-BT.eot#iefix) format('embedded-opentype'), /* IE 6 ~ 8 */
+         url(../asset/fonts/BroadwayEngraved-BT.woff2) format('woff2'), /* WOFF2 지원 브라우저 */
+         url(../asset/fonts/BroadwayEngraved-BT.woff) format('woff'), /* 모던 브라우저 */
+         url(../asset/fonts/BroadwayEngraved-BT.ttf) format('truetype'),
+         url(../asset/fonts/BroadwayEngraved-BT.svg#NanumSquareR) format('svg'); /* 구 모바일 브라우저 */
+}

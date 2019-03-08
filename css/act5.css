@@ -1,0 +1,355 @@
+#act5_panel{
+    position:absolute;
+    left:136px;
+    top:140px;
+}
+
+#act5_panel>ul>li{
+    float:left;
+    position:relative;
+    margin-right:30px;
+}
+/* #act5_panel>ul li div div ul li{
+    margin-right:10px;
+} */
+.act5_panel_contain li div div{
+    position:relative;
+    margin-top:-34px;
+    margin-left:50px;
+    width:150px;
+    height: 34px;
+}
+
+.act5_panel_contain li div div ul li:first-child{
+    margin-right:12px;
+}
+
+.act5_panel_contain li div div ul li:last-child{
+/*     background:aliceblue; */
+    width:40px;
+    text-align:right;
+}
+.act5_panel_contain li div div ul li{
+    float:left;
+}
+
+#act5_panel>ul>li>div:last-child>ul>li:first-child{
+    margin-right:0px;
+}
+.act5_point{
+    width:210px;
+    height:150px;
+    position:absolute;
+    margin-left:5px;
+    margin-top:45px;
+}
+
+/* #act5_level1_items>.act5_point{
+    margin-top:15px;
+    height:150px;
+} */
+
+.act5_point>li{
+    width:60px;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:4px;
+    float:left;
+}
+
+
+.act5_point li:nth-child(1){
+    margin-left:40px;
+}
+
+.act5_point li:nth-child(3){
+    margin-left:5px;
+}
+
+
+
+
+/* act5 game */
+
+
+
+
+
+.act5_game_click{
+    position:absolute;
+    width:140px;
+    height:70px;
+    left:430px;
+    bottom:140px;
+    cursor:pointer;
+}
+
+
+.act5_start_button{
+    position:absolute;
+    width:140px;
+    height:70px;
+    left:430px;
+    top:420px;
+    background-color:rgba(240, 248, 255, 0);
+    z-index:1000;
+    cursor:pointer;
+    border:none;
+    outline: none;
+}
+
+.act5_start_button:focus{
+     outline: none;
+}
+
+.act5_level_button1{
+    left:140px;
+    top:135px;
+}
+
+.act5_level_button2{
+    left:385px;
+    top:135px;
+}
+
+.act5_level_button3{
+    left:640px;
+    top:135px;
+}
+
+.act5_level_click{
+    position:absolute;
+    background-color:rgba(255, 255, 255, 0);
+    z-index:1000;
+    width:220px;
+    height:200px;
+}
+
+#act5_start_button2{
+    position:absolute;
+    left:603px;
+    top:389px;
+    z-index:1;
+    width:65px;
+    height:45px;
+    cursor:pointer;
+}
+
+#act5_start_button1{
+    cursor:pointer;
+    position:absolute;
+    left: 680px;
+    top: 490px;
+    z-index:1;
+    width:75px;
+    height:35px;
+}
+
+#act5_start_button3{
+    cursor:pointer;
+    position:absolute;
+    left: 607px;
+    top: 117px;
+    z-index:1;
+    width:75px;
+    height:35px;
+}
+.act5_level_click:focus{
+    outline: none;
+}
+
+
+#act5_game_post_contain{
+    position:absolute;
+    top:-550px;
+    left:33px;
+    -webkit-transition: -webkit-transform 0.5s; /* Safari */
+    transition: transform 0.5s;
+    box-shadow: 0 4px 28px 0 rgba(0, 0, 0, 0.53), 0 10px 30px 0 rgba(0, 0, 0, 0.4);
+    z-index:10000;
+}
+
+#act5_game_post_contain .act5_quiz_next_button{
+    position:absolute;
+    right:-60px;
+    top: 420px;
+    cursor:pointer;
+}
+#act5_game_post_contain{
+    background-color:aliceblue;
+}
+
+#act5_game_post_contain #quiz_next{
+    position:absolute;
+    top:440px;
+    left:750px;
+}
+#act5_game_post_contain .pos_img{
+    position:absolute;
+    left: 3.8%;
+    top: 6.5%;
+    width: 92.3%;
+    height: 87%;
+}
+
+.from_text span{/*     background:#ff9191; */position:relative;top: -4px;}
+
+.from_text2 span{
+/*     background:#ff9191; */
+    position:relative;
+    top:-4px;
+}
+
+.act5_extContain{
+    position:absolute;
+    left:43px;
+    top: 93px;
+    width:433px;
+    line-height:34px;
+    display:table;
+    /*     background:aliceblue; */
+}
+
+.from_text{
+    font-size:12pt;
+    position:absolute;
+    top:45px;
+    left:43px;
+}
+
+.from_text2{
+    position:absolute;
+    line-height:28px;
+    top:395px;
+    left: 36px;
+    width:435px;
+    /*     background:aliceblue; */
+    text-align:right;
+    font-size:13pt;
+}
+
+.center_line{
+    position:absolute;
+    width:1px;
+    height:400px;
+    background:rgb(144, 144, 144);
+    top:45px;
+    left:500px;
+}
+
+.act5_extContain>p{
+    text-align:left;
+    font-size:13pt;
+}
+
+
+.act5_extContain span{
+    position:relative;
+    top: -4px;
+    margin-left:2px;
+}
+
+
+
+.act5_select_Easy{
+    height: 25px;
+    padding-top: 0px;
+    padding-bottom:0px;
+    padding-left:3px;
+    padding-right:2px;
+    font-size:16pt;
+    cursor:pointer;
+    border-radius: 0;
+    background:none;
+    color:red;
+}
+
+.act5_select_Medium{
+    height: 26px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left:3px;
+    padding-right:2px;
+    font-size: 15pt;
+    cursor:pointer;
+    border-radius: 0;
+    background:none;
+    color:red;
+}
+
+.act5_select_Hard{
+    height:26px;
+    padding-top: 4px;
+    padding-bottom:0px;
+    padding-left:3px;
+    padding-right:2px;
+    font-size:13pt;
+    cursor:pointer;
+    border-radius: 0;
+    background:none;
+    color:red;
+}
+
+/* .custom-select option{
+    font-size:12pt;
+}
+ */
+.address_contain{
+    position:absolute;
+    right:30px;
+    width:290px;
+    top:344px;
+/*     background:aliceblue; */
+}
+
+.address_contain p{
+    display:inline-block;
+    text-align:center;
+    width:100%;
+/*     background:#0088ff78; */
+    line-height:2px
+}
+
+.address1{
+/*     margin-bottom:44px; */
+/*     background:aliceblue; */
+}
+
+#quiz_button{
+    position:absolute;
+    right:40px;
+    top:40px;
+    cursor:pointer;
+}
+#quiz_button div img{
+    width: 200px;
+    position:absolute;
+    left:-67px;
+    top:-15px;
+}
+#quiz_button span{
+    width:50px;
+    
+}
+/* Safari 4.0 - 8.0 */   
+/* @-webkit-keyframes scaleXzero {
+    from {transform:scale(1, 1);}
+    to {transform:scale(-1, 1);}
+} */
+
+/* Standard syntax */
+/* @keyframes scaleXzero {
+    from {transform:scale(1, 1);}
+    to {transform:scale(-0.01, 1);}
+} */
+
+@-webkit-keyframes scaleXzero {
+    from {-webkit-transform: rotateY(0deg);}
+    to {-webkit-transform: rotateY(90deg);}
+}
+
+/* Standard syntax */
+@keyframes scaleXzero {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(90deg);}
+}

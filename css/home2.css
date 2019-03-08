@@ -1,0 +1,99 @@
+.img_button{
+    position:absolute;
+}
+#item_ui{
+    top:-210px;
+    position: absolute;
+}
+
+#item_ui #item_ui_arrow{
+    position:absolute;
+    left:489px;
+    top:211px;
+}
+
+#item_ui button{
+    cursor:pointer;
+    background-color:rgba(255, 255, 255, 0);
+    width:65px;height:35px;position:absolute;left:465px;bottom:0px;
+    boder:none;
+    outline:none;
+}
+
+#full_Screen{
+    width:50px;
+    height:50px;
+        pointer-events: all;
+/*     background-color:#2097ff; */
+    position:absolute;
+    top:-550px;
+}
+
+#act4_button{
+    position:absolute;
+    top:334px;
+    left:443px;
+}
+
+#act5_button{
+    position:absolute;
+    top:218px;
+    left:820px;
+}
+
+#act6_button{
+    position:absolute;
+    top:32px;
+    left:765px;
+}
+
+#act7_button{
+    position:absolute;
+    top:210px;
+    left:540px;
+}
+
+#reedie_Home{
+    left:13px;
+    top:35px;
+}
+
+#part1_Home1{
+    position:absolute;
+/*     background-color:#ffffff8c; */
+    width:250px;
+    height:140px;
+    top:30px;
+    left:440px;
+    cursor:pointer;
+}
+
+#part1_Home2{
+    position:absolute;
+/*     background-color:#ffffff8c; */
+    width:300px;
+    height:140px;
+    top:200px;
+    left:30px;
+    cursor:pointer;
+}
+
+#part1_Home3{
+    position:absolute;
+/*     background-color:#ffffff8c; */
+    width:300px;
+    height:140px;
+    top:400px;
+    left:30px;
+    cursor:pointer;
+}
+
+#part1_Home4{
+    position:absolute;
+/*     background-color:#ffffff8c; */
+    width:190px;
+    height:140px;
+    top:370px;
+    left:770px;
+    cursor:pointer;
+}
